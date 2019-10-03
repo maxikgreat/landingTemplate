@@ -1,0 +1,8 @@
+#aboutUsSection{
+    text-align: center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    p{
+        @include paragraphCentered;
+    }
+}

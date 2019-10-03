@@ -1,0 +1,13 @@
+@mixin buttonPrimary($color){
+    width: 12rem;
+    display: inline-block;
+    background-color: $color;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 1rem;
+    font-size: 14px;
+    &:hover{
+        background-color: darken($color, 10%)
+    }
+}

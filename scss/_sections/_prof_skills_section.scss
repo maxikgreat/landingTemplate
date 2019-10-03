@@ -1,0 +1,32 @@
+#profSkillsSection{
+    @include backGround('../resourses/images/bgWork.jpg');
+
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    height: 500px;
+    .myProgress {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        width: 100%;
+        #designBar {
+            width: 75%;
+            height: 3px;
+            background-color: $primaryColor;
+        }
+        #developmentBar {
+            width: 90%;
+            height: 3px;
+            background-color: $primaryColor;
+        }
+        #marketingBar {
+            width: 65%;
+            height: 3px;
+            background-color: $primaryColor;
+        }
+    }
+    span{
+        font-size: 14px;
+        display: block;
+        text-transform: uppercase;
+    }
+}

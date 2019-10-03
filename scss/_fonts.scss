@@ -1,0 +1,9 @@
+@import './_mixins/font-face';
+
+//local fonts
+@include font-face('Vogue','../resourses/fonts/Vogue/VogueFont');
+@include font-face('Shmally','../resourses/fonts/Shmally/ShmallyFont');
+
+//web fonts
+@import url("https://use.typekit.net/tyr7wst.css");
+

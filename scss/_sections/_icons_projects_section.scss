@@ -1,0 +1,23 @@
+#iconsProjectsSection{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align:center;
+    color: white;
+    background-color: $primaryColor;
+        img{
+            width: 3rem;
+            float: left;
+        }
+        span{
+            width: 70%;
+            display: inline-block;
+            margin: auto;
+            text-align: left;
+            text-transform: uppercase;
+            font-size: 14px;
+            margin-left:10px;
+            strong{
+                font-size: 17px;
+            }
+        }
+}

@@ -1,0 +1,20 @@
+#carouselSection{
+    background-color: $primaryColor;
+    #carouselIndicators{
+        height: 600px;
+        .carousel-inner{
+            top: 30%;
+            text-align: center;
+            p{
+                width: 70%;
+                color: white;
+                font-size: 25px;
+            }
+            span{
+                font-size: 14px;
+                color: white;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
